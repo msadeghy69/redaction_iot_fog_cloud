@@ -1,0 +1,40 @@
+{
+  "NumOfFogNodes": 3,
+  "NumOfCloudNodes": 3,
+  "num_of_users_per_fog_node": 2,
+  "num_of_fogs_per_cloud_node": 2,
+  "NumOfTaskPerUser": 4,
+  "NumOfTaskPerFog": 2,
+
+
+  "NumOfMiners": 3,
+  "number_of_each_miner_neighbours": 1,
+  "numOfTXperBlock": 2,
+  "puzzle_difficulty": 2,
+  "poet_block_time": 1,
+  "Max_enduser_payment": 100,
+  "miners_initial_wallet_value": 20,
+  "mining_award": 5,
+  "delay_between_cloud_nodes": 0,
+  "delay_between_fog_nodes": 0,
+  "delay_between_end_users": 0,
+
+
+
+
+  "delay_between_iot_fogbroker": 0,
+  "delay_between_fogbroker_cloudbroker": 0,
+  "delay_between_cloudbroker_to_host": 0,
+
+
+  "Gossip_Activated": true,
+  "Automatic_PoA_miners_authorization?": true,
+  "Parallel_PoW_mining?": false,
+  "Asymmetric_key_length": 512,
+  "Num_of_DPoS_delegates": 2,
+  "Isredaction" : false,
+  "Reduction_Mechanism": 0,
+  "attack_rates": 0.4,
+  "run_with_bc": true,
+  "STOR_PLC(0=in the Fog,1=in the BC)": 1
+}
